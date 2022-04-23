@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { Fragment, useState } from "react";
 import "./PlaceDetails.css";
 import Carousel from "react-material-ui-carousel";
 import ReviewCard from "./ReviewCard";
@@ -14,20 +14,19 @@ const PlaceDetails = () => {
   
   const dispatch = useDispatch();
 
-
-  const [featured,setFeatured] =  useState({});
-  useEffect(()=>{
     const specificPlace = featuredPlaces.filter(p => p._id === id);
-    setFeatured(specificPlace[0]);
-  },[id,setFeatured])
+    const featured = specificPlace[0];
+
+    const options = {
+      size: "large",
+      value: featured.ratings,
+      readOnly: true,
+      precision: 0.5,
+    };
+  
 
 
-  const options = {
-    size: "large",
-    value: featured.ratings,
-    readOnly: true,
-    precision: 0.5,
-  };
+
    
   const [open ,setOpen] =  useState(false);
 
@@ -69,26 +68,26 @@ const PlaceDetails = () => {
             <p>Product # {featured._id}</p>
           </div>
           <div className="detailsBlock-2">
-            <Rating {...options} />
+           <Rating {...options} />
             <span className="detailsBlock-2-span">
               ({featured.numOfReviews} Reviews)
             </span>
           </div>
           <div className="detailsBlock-3">
-            <h1>{`₹ ${featured.price}`}</h1>
+            <h1>{`₹ ${featured.price} /day`}</h1>
             <div className="detailsBlock-3-1">
               <div className="detailsBlock-3-1-1">
                
               </div>
-              <button  onClick={addToCartHandler} >Add to Cart</button>
+              <button  onClick={addToCartHandler} >Add to Package</button>
             </div>
             <p>
               Status:
-              <b>OutOfStock</b>
+              <b>Booking Open</b>
             </p>
           </div>
           <div className="detailsBlock-4">
-            Description : <p>This is Good</p>
+            Description : <p>This is an Awesome and eye Soothing Place</p>
           </div>
           <button onClick={submitReviewToggle}  className="submitReview"  >Submit Review</button>
         </div>

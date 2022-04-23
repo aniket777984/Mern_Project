@@ -92,7 +92,7 @@ const Recommended = () => {
               <p>Kitchen</p> <span>(0)</span>
             </div>
             <div class="sidebar-link">
-              <a href="https://www.youtube.com">View More</a>
+              <a href="https://www.youtube.com" target="blank" >View More</a>
             </div>
           </div>
         </div>

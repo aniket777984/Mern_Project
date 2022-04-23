@@ -31,8 +31,8 @@ const Cart = () => {
         <Fragment>
           <div className="cartPage">
             <div className="cartHeader">
-              <p>Product</p>
-              <p>Quantity</p>
+              <p>Package</p>
+              <p></p>
               <p>Subtotal</p>
             </div>
 

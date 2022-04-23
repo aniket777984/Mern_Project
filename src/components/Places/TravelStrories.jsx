@@ -6,14 +6,11 @@ import {Dialog,DialogActions,DialogContent,DialogTitle,Button} from "@material-u
 import { Rating } from "@material-ui/lab";
 import { useParams } from "react-router-dom";
 import {travelStories} from "../../data";
-import {useDispatch} from "react-redux"
-import {addItemsToCart} from "../../actions/cart"
 
 const TravelStories = () => {
   const { id } = useParams();
 
     
-  const dispatch = useDispatch();
   const specificPlace = travelStories.filter(p => p._id === id);
   const travel = specificPlace[0];
 
@@ -36,11 +33,6 @@ const TravelStories = () => {
   };
 
   
-  const addToCartHandler = () =>{
-    dispatch(addItemsToCart(travel));
-    alert("Item Added to Cart");
-  }
-
 
 
   return (
@@ -70,19 +62,6 @@ const TravelStories = () => {
             <span className="detailsBlock-2-span">
               ({travel.numOfReviews} Reviews)
             </span>
-          </div>
-          <div className="detailsBlock-3">
-            <h1>{`₹ ${travel.price}`}</h1>
-            <div className="detailsBlock-3-1">
-              <div className="detailsBlock-3-1-1">
-                
-              </div>
-              <button onClick={addToCartHandler} >Add to Cart</button>
-            </div>
-            <p>
-              Status:
-              <b>OutOfStock</b>
-            </p>
           </div>
           <div className="detailsBlock-4">
             Description : <p>This is Good</p>

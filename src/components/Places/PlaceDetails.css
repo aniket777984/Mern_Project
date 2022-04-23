@@ -210,6 +210,11 @@
   }
   
   @media screen and (max-width: 600px) {
+  
+    .detailsBlock-4{
+      margin-top: 20px;
+    }
+     
     .ProductDetails {
       flex-direction: column;
       height: unset;

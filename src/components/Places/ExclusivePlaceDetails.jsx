@@ -74,19 +74,19 @@ const ExclusivePlaceDetails = () => {
             </span>
           </div>
           <div className="detailsBlock-3">
-            <h1>{`₹ ${exclusivePlace.price}`}</h1>
+            <h1>{`₹ ${exclusivePlace.price} /day`}</h1>
             <div className="detailsBlock-3-1">
               <div className="detailsBlock-3-1-1">
               </div>
-              <button  onClick={addToCartHandler}  >Add to Cart</button>
+              <button  onClick={addToCartHandler}  >Add to Package</button>
             </div>
             <p>
               Status:
-              <b>OutOfStock</b>
+              <b>BookingOpen</b>
             </p>
           </div>
           <div className="detailsBlock-4">
-            Description : <p>This is Good</p>
+            Description : <p>This is an awesome and Sight seeing Place</p>
           </div>
           <button onClick={submitReviewToggle} className="submitReview">Submit Review</button>
         </div>
