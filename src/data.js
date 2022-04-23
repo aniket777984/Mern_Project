@@ -9,7 +9,7 @@ const featuredPlaces = [
     ratings: 4,
     images: [
       {
-        url: "/image4.jpg",
+        url: "/image2.jpg",
       },
       {
         url: "/image1.jpg",
