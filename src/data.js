@@ -2,9 +2,9 @@ import uuid from "react-uuid";
 
 const featuredPlaces = [
   {
-    name: "Featured Place",
-    price: 20000,
-    numOfReviews: 10,
+    name: "AmerFort",
+    price: 2000,
+    numOfReviews: 5,
     _id: uuid(),
     ratings: 4,
     images: [
@@ -22,7 +22,7 @@ const featuredPlaces = [
       {
         name: "Aniket Kumar",
         rating: 4,
-        comment: "This place is awesome",
+        comment: "This place is awesome for visiting in spring",
       },
       {
         name: "Deep Samanta",
@@ -47,11 +47,11 @@ const featuredPlaces = [
     ],
   },
   {
-    name: "Featured Place",
-    price: 20000,
+    name: "Delhi",
+    price: 3000,
     numOfReviews: 10,
     _id: uuid(),
-    ratings: 4,
+    ratings: 2,
     images: [
       {
         url: "/Featured/delhi1.jpg",
@@ -86,17 +86,22 @@ const featuredPlaces = [
       },
       {
         name: "Navin Kumar",
-        rating: 5,
+        rating: 4,
+        comment: "This place gives chilled vibes",
+      },
+      {
+        name: "Satyajit Paul",
+        rating: 2,
         comment: "This place gives chilled vibes",
       },
     ],
   },
   {
-    name: "Featured Place",
+    name: "Goa",
     price: 20000,
-    numOfReviews: 10,
+    numOfReviews: 5,
     _id: uuid(),
-    ratings: 4,
+    ratings: 3,
     images: [
       {
         url: "/Featured/goa1.jpg",
@@ -137,9 +142,9 @@ const featuredPlaces = [
     ],
   },
   {
-    name: "Featured Place",
-    price: 20000,
-    numOfReviews: 10,
+    name: "Golden Temple",
+    price: 5000,
+    numOfReviews: 20,
     _id: uuid(),
     ratings: 4,
     images: [
@@ -182,7 +187,7 @@ const featuredPlaces = [
     ],
   },
   {
-    name: "Featured Place",
+    name: "Hyderabad",
     price: 20000,
     numOfReviews: 10,
     _id: uuid(),
@@ -224,11 +229,11 @@ const featuredPlaces = [
     ],
   },
   {
-    name: "Featured Place",
-    price: 20000,
-    numOfReviews: 10,
+    name: "London",
+    price: 50000,
+    numOfReviews: 100,
     _id: uuid(),
-    ratings: 4,
+    ratings: 5,
     images: [
       {
         url: "/Featured/London1.jpg",
@@ -269,9 +274,9 @@ const featuredPlaces = [
     ],
   },
   {
-    name: "Featured Place",
-    price: 20000,
-    numOfReviews: 10,
+    name: "Mecca Madina",
+    price: 8000,
+    numOfReviews: 200,
     _id: uuid(),
     ratings: 4,
     images: [
@@ -314,11 +319,11 @@ const featuredPlaces = [
     ],
   },
   {
-    name: "Featured Place",
-    price: 20000,
-    numOfReviews: 10,
+    name: "Taj Mahal",
+    price: 2000,
+    numOfReviews: 1000,
     _id: uuid(),
-    ratings: 4,
+    ratings: 5,
     images: [
       {
         url: "/Featured/taj1.jpg",
@@ -365,11 +370,11 @@ const featuredPlaces = [
 
 const exclusive = [
   {
-    name: "Exclusive Place",
+    name: "Dubai",
     price: 20000,
-    numOfReviews: 10,
+    numOfReviews: 50,
     _id: uuid(),
-    ratings: 4,
+    ratings: 5,
     images: [
       {
         url: "/Exclusive/dubai1.jpg",
@@ -410,9 +415,9 @@ const exclusive = [
     ],
   },
   {
-    name: "Exclusive Place",
+    name: "India",
     price: 20000,
-    numOfReviews: 10,
+    numOfReviews: 1000,
     _id: uuid(),
     ratings: 4,
     images: [
@@ -428,11 +433,11 @@ const exclusive = [
     ],
   },
   {
-    name: "Exclusive Place",
-    price: 20000,
+    name: "Jodhpur",
+    price: 9000,
     numOfReviews: 10,
     _id: uuid(),
-    ratings: 4,
+    ratings: 3,
     images: [
       {
         url: "/Exclusive/jodhpur1.jpg",
@@ -473,9 +478,9 @@ const exclusive = [
     ],
   },
   {
-    name: "Exclusive Place",
-    price: 20000,
-    numOfReviews: 10,
+    name: "London",
+    price: 10000,
+    numOfReviews: 100,
     _id: uuid(),
     ratings: 4,
     images: [
@@ -518,11 +523,11 @@ const exclusive = [
     ],
   },
   {
-    name: "Exclusive Place",
+    name: "Mumbai",
     price: 20000,
-    numOfReviews: 10,
+    numOfReviews: 1000,
     _id: uuid(),
-    ratings: 4,
+    ratings: 5,
     images: [
       {
         url: "/Exclusive/mumbai1.jpg",
@@ -563,11 +568,11 @@ const exclusive = [
     ],
   },
   {
-    name: "Exclusive Place",
+    name: "New York",
     price: 20000,
     numOfReviews: 10,
     _id: uuid(),
-    ratings: 4,
+    ratings: 2,
     images: [
       {
         url: "/Exclusive/newyork1.jpg",
@@ -608,9 +613,9 @@ const exclusive = [
     ],
   },
   {
-    name: "Exclusive Place",
+    name: "Paris",
     price: 20000,
-    numOfReviews: 10,
+    numOfReviews: 900,
     _id: uuid(),
     ratings: 4,
     images: [
@@ -653,9 +658,9 @@ const exclusive = [
     ],
   },
   {
-    name: "Exclusive Place",
-    price: 20000,
-    numOfReviews: 10,
+    name: "United States",
+    price: 20880,
+    numOfReviews: 899,
     _id: uuid(),
     ratings: 4,
     images: [
@@ -698,7 +703,7 @@ const exclusive = [
 
 const travelStories = [
   {
-    name: "Travel Stories",
+    name: "Aniket Kumar",
     price: 20000,
     numOfReviews: 10,
     _id: uuid(),
@@ -741,11 +746,11 @@ const travelStories = [
     ],
   },
   {
-    name: "Travel Stories",
+    name: "Satyajit Paul",
     price: 20000,
     numOfReviews: 10,
     _id: uuid(),
-    ratings: 4,
+    ratings: 3,
     message: "This Place is Awesome",
     images: [
       {
@@ -784,11 +789,11 @@ const travelStories = [
     ],
   },
   {
-    name: "Travel Stories",
+    name: "Vedang Chauhan",
     price: 20000,
-    numOfReviews: 10,
+    numOfReviews: 100,
     _id: uuid(),
-    ratings: 4,
+    ratings: 5,
     message: "This Place is Awesome",
     images: [
       {
@@ -827,7 +832,7 @@ const travelStories = [
     ],
   },
   {
-    name: "Travel Stories",
+    name: "Manish Jiswal",
     price: 20000,
     numOfReviews: 10,
     _id: uuid(),
@@ -870,7 +875,7 @@ const travelStories = [
     ],
   },
   {
-    name: "Travel Stories",
+    name: "Abhishek Prusty",
     price: 20000,
     numOfReviews: 10,
     _id: uuid(),
@@ -913,7 +918,7 @@ const travelStories = [
     ],
   },
   {
-    name: "Travel Stories",
+    name: "Sayon Chakarborty",
     price: 20000,
     numOfReviews: 10,
     _id: uuid(),
@@ -992,6 +997,12 @@ const recommended = [
       {
         url: "/image-s2.png",
       },
+      {
+        url: "/image-s3.png",
+      },
+      {
+        url: "/image-s4.png",
+      },
     ],
     name: "Private villa in London",
     subtitle: "Delux Queen room with Street View",
@@ -1008,6 +1019,13 @@ const recommended = [
       {
         url: "/image-s3.png",
       },
+    {
+      url: "/image-s1.png",
+    },
+    {
+      url: "/image-s2.png",
+    },
+      
     ],
     name: "Private villa in San Fransisco",
     subtitle: "Delux Queen room with Street View",
@@ -1023,6 +1041,12 @@ const recommended = [
     images: [
       {
         url: "/image-s4.png",
+      },
+      {
+        url: "/image-s1.png",
+      },
+      {
+        url: "/image-s2.png",
       },
     ],
     name: "Private villa in San Fransisco",
@@ -1040,6 +1064,12 @@ const recommended = [
       {
         url: "/image-s5.png",
       },
+      {
+        url: "/image-s6.png",
+      },
+      {
+        url: "/image-s4.png",
+      },
     ],
     name: "Private villa in San Fransisco",
     subtitle: "Delux Queen room with Street View",
@@ -1055,6 +1085,12 @@ const recommended = [
     images: [
       {
         url: "/image-s6.png",
+      },
+      {
+        url: "/image-s4.png",
+      },
+      {
+        url: "/image-s1.png",
       },
     ],
     name: "Private villa in San Fransisco",
